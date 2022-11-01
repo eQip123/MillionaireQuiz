@@ -56,15 +56,47 @@
 		1CE8E3422911513F0082395F /* MillionaireQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				1CE8E3432911513F0082395F /* AppDelegate.swift */,
-				1CE8E3452911513F0082395F /* SceneDelegate.swift */,
-				1CE8E3472911513F0082395F /* ViewController.swift */,
-				1CE8E3492911513F0082395F /* Main.storyboard */,
+				1CE8E359291151B20082395F /* Application */,
+				1CE8E35A291151BC0082395F /* Model */,
+				1CE8E3572911518D0082395F /* View */,
+				1CE8E358291151980082395F /* Controller */,
 				1CE8E34C291151400082395F /* Assets.xcassets */,
 				1CE8E34E291151400082395F /* LaunchScreen.storyboard */,
 				1CE8E351291151400082395F /* Info.plist */,
 			);
 			path = MillionaireQuiz;
+			sourceTree = "<group>";
+		};
+		1CE8E3572911518D0082395F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8E3492911513F0082395F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CE8E358291151980082395F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8E3472911513F0082395F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CE8E359291151B20082395F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8E3432911513F0082395F /* AppDelegate.swift */,
+				1CE8E3452911513F0082395F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1CE8E35A291151BC0082395F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
